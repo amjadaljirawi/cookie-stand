@@ -1,0 +1,93 @@
+.fixed-pos{
+    position: fixed;
+    text-align: center;
+}
+.text-red {
+    color: red;
+  }
+  .bg-blue {
+    background-color: rgb(229, 236, 247);
+  }
+  p {
+    font-size:50px; 
+  }
+  li a {
+    color: red;
+  }
+  .text-color-orange {
+    color: orange;
+  }
+  .text-color-w {
+    color: whitesmoke;
+    
+  }
+  #img1 {
+    width: 125px;
+  }
+  .img2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width : 800px;
+
+  }
+  .display-inline li{
+    display: inline-block;
+  }
+  .p-border {
+    border: solid 3px;
+    background-color:rgba(72, 206, 247, 0.425);
+  }
+  .img11 {
+    width: 200px;
+  }
+  .text-color-green {
+    color: green;
+  }
+  body{
+    background-color: rgb(23, 36, 97);
+  }
+  #center{
+    margin-left: 50%;
+    display: block;
+      }
+  nav ul li a{
+    color: brown;
+    text-decoration: none;
+    
+  }    
+  li{
+    border:20px rgb(32, 29, 26) palegoldenrod;
+    /* display: inline; */
+    margin-left : 400px ;
+    padding: 20px;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+  .color1{
+    color: #244F75;
+  }
+  .color2{
+      color: #60BFBF;
+  }
+  .color3{
+  color: #8C4B7E;
+  font-size: 100px;
+  }
+  .color4{
+    color: #F8BB44;
+  }
+  .color5{
+    color: #F24B4B;
+  }
+  .img3{
+    width: 25px;
+  }
+  .fontnew{
+    font-family: 'Bangers', cursive;
+  }
