@@ -98,33 +98,136 @@ function restrantreports(name,maxvalue,minvalue,cookiespercostmerav,hours) {
     
         table.appendChild(tr);
     
-        // var tr2 = document.createElement('tr');
-        // var th2 = document.createElement('th');
-        // th2.textContent = 'tokyo';
-        // tr2.append(th2);
-        // table.appendChild(tr2);
+        var tr2 = document.createElement('tr');
+        var th2 = document.createElement('th');
+        th2.textContent = 'tokyo';
+        tr2.append(th2);
+
+        var td1 = document.createElement('th');
+        td1.textContent =liElement.textContent;
+        tr2.append(td1);
+        var td2 = document.createElement('th');
+        td2.textContent =liElement.textContent;
+        tr2.append(td2);
+        var td3 = document.createElement('th');
+        td3.textContent = liElement.textContent;
+        tr2.append(td3);
+        var td4 = document.createElement('th');
+        td4.textContent = liElement.textContent;
+        tr2.append(td4);
+        var td5 = document.createElement('th');
+        td5.textContent = liElement.textContent;
+        tr2.append(td5);
+        var td6 = document.createElement('th');
+        td6.textContent = liElement.textContent;
+        tr2.append(td6);
+        var td7 = document.createElement('th');
+        td7.textContent = liElement.textContent;
+        tr2.append(td7);
+        var td8 = document.createElement('th');
+        td8.textContent = liElement.textContent;
+        tr2.append(td8);
+
+        table.appendChild(tr2);
     
-        // var tr3 = document.createElement('tr');
-        // var th3 = document.createElement('th');
-        // th3.textContent = 'paris';
-        // tr3.append(th3);
-        // table.appendChild(tr3);
+        var tr3 = document.createElement('tr');
+        var th3 = document.createElement('th');
+        th3.textContent = 'paris';
+        tr3.append(th3);
+
+        var td1 = document.createElement('th');
+        td1.textContent =liElement.textContent;
+        tr3.append(td1);
+        var td2 = document.createElement('th');
+        td2.textContent =liElement.textContent;
+        tr3.append(td2);
+        var td3 = document.createElement('th');
+        td3.textContent = liElement.textContent;
+        tr3.append(td3);
+        var td4 = document.createElement('th');
+        td4.textContent = liElement.textContent;
+        tr3.append(td4);
+        var td5 = document.createElement('th');
+        td5.textContent = liElement.textContent;
+        tr3.append(td5);
+        var td6 = document.createElement('th');
+        td6.textContent = liElement.textContent;
+        tr3.append(td6);
+        var td7 = document.createElement('th');
+        td7.textContent = liElement.textContent;
+        tr3.append(td7);
+        var td8 = document.createElement('th');
+        td8.textContent = liElement.textContent;
+        tr3.append(td8);
+
+        table.appendChild(tr3);
     
-        // var tr4 = document.createElement('tr');
-        // var th4 = document.createElement('th');
-        // th4.textContent = 'dubai';
-        // tr4.append(th4);
-        // table.appendChild(tr4);
+        var tr4 = document.createElement('tr');
+        var th4 = document.createElement('th');
+        th4.textContent = 'dubai';
+        tr4.append(th4);
+
+        var td1 = document.createElement('th');
+        td1.textContent =liElement.textContent;
+        tr4.append(td1);
+        var td2 = document.createElement('th');
+        td2.textContent =liElement.textContent;
+        tr4.append(td2);
+        var td3 = document.createElement('th');
+        td3.textContent = liElement.textContent;
+        tr4.append(td3);
+        var td4 = document.createElement('th');
+        td4.textContent = liElement.textContent;
+        tr4.append(td4);
+        var td5 = document.createElement('th');
+        td5.textContent = liElement.textContent;
+        tr4.append(td5);
+        var td6 = document.createElement('th');
+        td6.textContent = liElement.textContent;
+        tr4.append(td6);
+        var td7 = document.createElement('th');
+        td7.textContent = liElement.textContent;
+        tr4.append(td7);
+        var td8 = document.createElement('th');
+        td8.textContent = liElement.textContent;
+        tr4.append(td8);
+
+        table.appendChild(tr4);
     
-        // var tr5 = document.createElement('tr');
-        // var th5 = document.createElement('th');
-        // th5.textContent = 'lima';
-        // tr5.append(th5);
-        // table.appendChild(tr5);
+        var tr5 = document.createElement('tr');
+        var th5 = document.createElement('th');
+        th5.textContent = 'lima';
+        tr5.append(th5);
+
+        var td1 = document.createElement('th');
+        td1.textContent =liElement.textContent;
+        tr5.append(td1);
+        var td2 = document.createElement('th');
+        td2.textContent =liElement.textContent;
+        tr5.append(td2);
+        var td3 = document.createElement('th');
+        td3.textContent = liElement.textContent;
+        tr5.append(td3);
+        var td4 = document.createElement('th');
+        td4.textContent = liElement.textContent;
+        tr5.append(td4);
+        var td5 = document.createElement('th');
+        td5.textContent = liElement.textContent;
+        tr5.append(td5);
+        var td6 = document.createElement('th');
+        td6.textContent = liElement.textContent;
+        tr5.append(td6);
+        var td7 = document.createElement('th');
+        td7.textContent = liElement.textContent;
+        tr5.append(td7);
+        var td8 = document.createElement('th');
+        td8.textContent = liElement.textContent;
+        tr5.append(td8);
+        table.appendChild(tr5);
     
-        // var th2 = document.createElement('th');
-        // th2.textContent = liElement.textContent;
-        // tr.append(th2);
+        var th2 = document.createElement('th');
+        th2.textContent = liElement.textContent;
+        tr.append(th2);
     
        
         
@@ -177,22 +280,22 @@ seatle.cookiesList();
 seatle.totalCookies();
 seatle.render();
 // seatle.table()
-// tokyo.randomCus();
-// tokyo.cookiesList();
-// tokyo.totalCookies();
-// tokyo.render();
-// paris.randomCus();
-// paris.cookiesList();
-// paris.totalCookies();
-// paris.render();
-// dubai.randomCus();
-// dubai.cookiesList();
-// dubai.totalCookies();
-// dubai.render();
-// lima.randomCus();
-// lima.cookiesList();
-// lima.totalCookies();
-// lima.render();
+tokyo.randomCus();
+tokyo.cookiesList();
+tokyo.totalCookies();
+tokyo.render();
+paris.randomCus();
+paris.cookiesList();
+paris.totalCookies();
+paris.render();
+dubai.randomCus();
+dubai.cookiesList();
+dubai.totalCookies();
+dubai.render();
+lima.randomCus();
+lima.cookiesList();
+lima.totalCookies();
+lima.render();
 // restrantreports.prototype.table();
 
 
