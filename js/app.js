@@ -96,7 +96,7 @@ var tokyo = {
         for (let index = 0; index < this.hours.length; index++) {
             var liElement = document.createElement('li');
             ul.appendChild(liElement);
-            liElement.textContent = this.hours[index] +':'+ (this.cookiesava);
+            liElement.textContent = this.hours[index] +':'+ (this.cookiesava[index]);
         }
     },
 }
