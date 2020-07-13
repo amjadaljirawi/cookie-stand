@@ -46,7 +46,7 @@ var seattle = {
         for (let index = 0; index < this.hours.length; index++) {
             var liElement = document.createElement('li');
             ul.appendChild(liElement);
-            liElement.textContent = this.hours[index] +':'+ (this.cookiesava);
+            liElement.textContent = this.hours[index] +':'+ (this.cookiesava[index]);
         }
     },
 }
@@ -145,7 +145,7 @@ var dubai = {
         for (let index = 0; index < this.hours.length; index++) {
             var liElement = document.createElement('li');
             ul.appendChild(liElement);
-            liElement.textContent = this.hours[index] +':'+ (this.cookiesava);
+            liElement.textContent = this.hours[index] +':'+ (this.cookiesava[index]);
         }
     },
 }
@@ -194,7 +194,7 @@ var paris = {
         for (let index = 0; index < this.hours.length; index++) {
             var liElement = document.createElement('li');
             ul.appendChild(liElement);
-            liElement.textContent = this.hours[index] +':'+ (this.cookiesava);
+            liElement.textContent = this.hours[index] +':'+ (this.cookiesava[index]);
         }
     },
 }
@@ -243,7 +243,7 @@ var lima = {
         for (let index = 0; index < this.hours.length; index++) {
             var liElement = document.createElement('li');
             ul.appendChild(liElement);
-            liElement.textContent = this.hours[index] +':'+ (this.cookiesava);
+            liElement.textContent = this.hours[index] +':'+ (this.cookiesava[index]);
         }
     },
 }
