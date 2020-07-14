@@ -1,5 +1,10 @@
 'use_strict';
 alert("hello ");
+ var password;
+ how = prompt('Please enter your password to acces this page');
+ while (how !== '1' ) {
+   how = prompt('Please enter your password to acces this page');
+
 
 function restrantreports(name,maxvalue,minvalue,costomers,cookiespercostmerav,hours,cookiesava,cookies) {
     var cookiesAvaArray = [];

@@ -1,5 +1,12 @@
 'use_strict';
-alert("hello ");
+alert("hello, This page is only for the resturant staff");
+
+var password;
+password = prompt('Please enter your password to acces this page / hint password = 201');
+while (password !== '201') {
+    password = prompt('Please enter your password to acces this page / hint password = 201');
+}
+
 
 function restrantreports(name,maxvalue,minvalue,cookiespercostmerav,hours) {
     // var cookiesAvaArray = [];
